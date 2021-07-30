@@ -1,0 +1,14 @@
+name: NeteaseProject
+description: 网易商业化接入系统
+main: me.asgard.neteaseproject.NeteaseProject
+version: ${project.version}
+
+depend:
+  - JLib
+
+author: hotic
+
+commands:
+  np:
+    description: 网易商业化接入系统主命令
+    aliases: [neteaseproject]

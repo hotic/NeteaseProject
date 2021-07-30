@@ -1,0 +1,17 @@
+# 检测玩家订单请求并发货间隔时间 (秒)
+orderPostInterval: 30
+
+# 订单请求接入地址
+url: "dfsfd"
+# 商业化商品签名
+key: "aa"
+# 网络游戏ID
+gameId: "234234"
+
+# 发货命令
+sendOrderList:
+# 对应商品的实现命令
+- neteaseCommand: "123123"
+  # 控制台触发命令 <player> = 收货玩家
+  serverCommandLists:
+  - "asdasd"
